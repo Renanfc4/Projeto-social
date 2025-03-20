@@ -5,15 +5,14 @@
     padding:0px;
 }
 ::-webkit-scrollbar{
-    height:3px 0px;
-}
-::-webkit-scrollbar-track{
-    background-color: white;
+    width:15px;
 }
 ::-webkit-scrollbar-thumb{
-background-color: blue;
-
-
+    background-color: rgb(11, 27, 22);
+    border:1px solid white;
+}
+::-webkit-scrollbar-track{
+    background-color: aliceblue;
 }
 img{
     width:94vw;
